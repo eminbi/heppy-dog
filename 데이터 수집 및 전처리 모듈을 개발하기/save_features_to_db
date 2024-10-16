@@ -1,0 +1,60 @@
+import cv2
+import numpy as np
+import sqlite3
+
+# 데이터베이스 연결
+def connect_db(db_name='features.db'):
+    conn = sqlite3.connect(db_name)
+    c = conn.cursor()
+    # 테이블 생성
+    c.execute('''
+        CREATE TABLE IF NOT EXISTS Features (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            mean REAL,
+            std REAL
+        )
+    ''')
+    conn.commit()
+    return conn
+
+def preprocess_frame(frame):
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    blur = cv2.GaussianBlur(gray, (5, 5), 0)
+    return blur
+
+def extract_features(frame):
+    mean = np.mean(frame)
+    std = np.std(frame)
+    return mean, std
+
+def save_features_to_db(conn, features):
+    c = conn.cursor()
+    c.execute("INSERT INTO Features (mean, std) VALUES (?, ?)", features)
+    conn.commit()
+
+def process_video_stream(video_path):
+    conn = connect_db()
+    cap = cv2.VideoCapture(video_path)
+    
+    while cap.isOpened():
+        ret, frame = cap.read()
+        if not ret:
+            break
+
+        processed_frame = preprocess_frame(frame)
+        mean, std = extract_features(processed_frame)
+
+        save_features_to_db(conn, (mean, std))
+
+        cv2.imshow('Processed Frame', processed_frame)
+
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+    
+    cap.release()
+    conn.close()
+    cv2.destroyAllWindows()
+
+# 비디오 파일 경로
+video_path = 'your_video.mp4'
+process_video_stream(video_path)

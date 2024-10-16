@@ -1,0 +1,121 @@
+Question_Number,English_Question,Korean_Question
+b1,when off the leash returns immediately when called,"- 줄을 풀었을 때, 부르면 바로 돌아옵니까?"
+b2,obeys the sit command immediately,- '앉아' 명령에 즉시 복종합니까?
+b3,obeys the stay command immediately,- '기다려' 명령에 즉시 복종합니까?
+b4,seems to attendlisten closely to everything you say or do,- 당신이 말하거나 하는 모든 일에 주의 깊게 귀를 기울이는 것처럼 보입니까?
+b5,slow to respond to correction or punishment thickskinned,- 꾸중이나 벌에 반응이 느리거나 '둔감'하게 반응합니까?
+b6,slow to learn new tricks or tasks,- 새로운 트릭이나 과제를 배우는 속도가 느립니까?
+b7,easily distracted by interesting sights sounds or smells,"- 흥미로운 장면, 소리, 냄새 등에 쉽게 산만해집니까?"
+b8,will fetch or attempt to fetch sticks balls or objects,"- 막대기, 공, 물건을 '가져와' 혹은 가져오려는 시도를 합니까?"
+b9,when verbally corrected or punished,- 언어적 꾸중이나 벌을 받을 때 반응은 어떻습니까?
+b10,when approached by an unfamiliar adult while on a leash,- 낯선 성인이 줄에 묶인 채 접근할 때 반응은 어떻습니까?
+b11,when approached by an unfamiliar child while on a leash,- 낯선 아이가 줄에 묶인 채 접근할 때 반응은 어떻습니까?
+b12,toward unfamiliar persons approaching the dog while in your car,- 차 안에 있을 때 낯선 사람이 개에게 접근할 때 반응은 어떻습니까?
+b13,when toys bones or other objects are taken away by a household member,"- 가정 구성원이 장난감, 뼈, 물건 등을 가져갈 때 반응은 어떻습니까?"
+b14,when bathed or groomed by a household member,- 가정 구성원이 목욕시키거나 손질할 때 반응은 어떻습니까?
+b15,when an unfamiliar person approaches you or another member of your family at home,- 낯선 사람이 집에서 당신 또는 가족 구성원에게 접근할 때 반응은 어떻습니까?
+b16,when an unfamiliar person approaches you or another member of your family away from your home,- 집 밖에서 낯선 사람이 당신 또는 가족 구성원에게 접근할 때 반응은 어떻습니까?
+b17,when approached by household member while eating,- 식사 중에 가정 구성원이 접근할 때 반응은 어떻습니까?
+b18,when mailmen or other delivery workers approach your home,- 우편 배달부나 기타 배달원이 집에 접근할 때 반응은 어떻습니까?
+b19,when hisher food is taken away by a household member,- 가정 구성원이 개의 음식을 가져갈 때 반응은 어떻습니까?
+b20,when strangers walk past your home while your dog is outside or in the yard,- 개가 밖에 있거나 마당에 있을 때 낯선 사람들이 집을 지나갈 때 반응은 어떻습니까?
+b21,when an unfamiliar person tries to touch or pet the dog,- 낯선 사람이 개를 만지거나 쓰다듬으려 할 때 반응은 어떻습니까?
+b22,when joggers cyclists rollerbladers pass your home while your dog is outside or in the yard,"- 조깅하는 사람, 자전거 타는 사람, 롤러블레이드를 타는 사람이 개가 밖에 있거나 마당에 있을 때 지나갈 때 반응은 어떻습니까?"
+b23,when approached by an unfamiliar male dog while on a leash,- 줄에 묶인 채로 낯선 수컷 개가 접근할 때 반응은 어떻습니까?
+b24,when approached by an unfamiliar female dog while on a leash,- 줄에 묶인 채로 낯선 암컷 개가 접근할 때 반응은 어떻습니까?
+b25,when stared at directly by a member of the household,- 가정 구성원이 개를 직접 바라볼 때 반응은 어떻습니까?
+b26,toward unfamiliar dogs visiting your home,- 낯선 개들이 집을 방문할 때 반응은 어떻습니까?
+b27,toward cats squirrels or other animals entering your yard,"- 고양이, 다람쥐 또는 다른 동물이 마당에 들어올 때 반응은 어떻습니까?"
+b28,toward unfamiliar persons visiting your home,- 낯선 사람이 집을 방문할 때 반응은 어떻습니까?
+b29,when barked growled or lunged at by another unfamiliar dog,- 다른 낯선 개가 짖거나 으르렁거리거나 공격적인 행동을 할 때 반응은 어떻습니까?
+b30,when stepped over by a member of the household,- 가정 구성원이 개를 밟고 지나갈 때 반응은 어떻습니까?
+b31,when you or a household member retrieves food or objects stolen by the dog,- 당신이나 가정 구성원이 개가 훔친 음식이나 물건을 회수할 때 반응은 어떻습니까?
+b32,towards another familiar dog in your household,- 가정 내의 다른 (익숙한) 개에게 반응은 어떻습니까?
+b33,when approached at a favorite resting place by another dog,- 다른 개가 개의 좋아하는 휴식 장소에 접근할 때 반응은 어떻습니까?
+b34,when approached while eating by another dog,- 다른 개가 개의 식사 중에 접근할 때 반응은 어떻습니까?
+b35,when approached while playing with a favorite toy by another dog,- 다른 개가 개의 좋아하는 장난감을 가지고 놀 때 반응은 어떻습니까?
+b36,when approached by an unfamiliar adult while away from home,- 집 밖에서 낯선 성인이 접근할 때 반응은 어떻습니까?
+b37,when approached by an unfamiliar child while away from home,- 집 밖에서 낯선 아이가 접근할 때 반응은 어떻습니까?
+b38,in response to sudden or loud noises,- 갑작스러운 소리나 큰 소리에 반응은 어떻습니까?
+b39,when unfamiliar persons visit your home,- 낯선 사람이 집을 방문할 때 반응은 어떻습니까?
+b40,when an unfamiliar person tries to touch or pet the dog,- 낯선 사람이 개를 만지거나 쓰다듬으려 할 때 반응은 어떻습니까?
+b41,in heavy traffic,- 복잡한 교통 상황에서 반응은 어떻습니까?
+b42,in response to strange or unfamiliar objects on or near the sidewalk,- 인도에 이상하거나 낯선 물체가 있을 때 반응은 어떻습니까?
+b43,when examined or treated by a veterinarian,- 수의사에게 검진이나 치료를 받을 때 반응은 어떻습니까?
+b44,during thunderstorms fireworks displays or similar events,"- 천둥 번개, 불꽃놀이 또는 유사한 상황에서 반응은 어떻습니까?"
+b45,when approached by an unfamiliar dog of the same or larger size,- 같은 크기 이상의 낯선 개가 접근할 때 반응은 어떻습니까?
+b46,when approached by an unfamiliar smaller dog,- 더 작은 낯선 개가 접근할 때 반응은 어떻습니까?
+b47,when exposed to unfamiliar situations,- 낯선 상황에 노출되었을 때 반응은 어떻습니까?
+b48,in response to wind or windblown objects,- 바람이나 바람에 날리는 물체에 반응은 어떻습니까?
+b49,when having nails clipped by a household member,- 가정 구성원이 개의 발톱을 자를 때 반응은 어떻습니까?
+b50,when groomed or bathed by a household member,- 가정 구성원이 개를 손질하거나 목욕시킬 때 반응은 어떻습니까?
+b51,when stepped over by a member of the household,- 가정 구성원이 개를 밟고 지나갈 때 반응은 어떻습니까?
+b52,when having hisher feet towelled by a member of the household,- 가정 구성원이 개의 발을 수건으로 닦을 때 반응은 어떻습니까?
+b53,when unfamiliar dogs visit your home,- 낯선 개들이 집을 방문할 때 반응은 어떻습니까?
+b54,when barked growled or lunged at by an unfamiliar dog,- 낯선 개가 짖거나 으르렁거리거나 공격적인 행동을 할 때 반응은 어떻습니까?
+b55,shaking shivering or trembling when left alone,- 혼자 남겨졌을 때 떨거나 흔들리는 반응을 보입니까?
+b56,excessive salivation when left alone,- 혼자 남겨졌을 때 과도한 침 흘림을 보입니까?
+b57,restlessness agitation pacing when left alone,- 혼자 남겨졌을 때 안절부절 못하거나 불안해 보입니까?
+b58,whining when left alone,- 혼자 남겨졌을 때 끙끙거립니까?
+b59,barking when left alone,- 혼자 남겨졌을 때 짖습니까?
+b60,howling when left alone,- 혼자 남겨졌을 때 울부짖습니까?
+b61,chewing or destroying objects when left alone,- 혼자 남겨졌을 때 물건을 씹거나 파괴합니까?
+b62,chewing or scratching doors windows etc when left alone,- 혼자 남겨졌을 때 문이나 창문을 긁거나 씹습니까?
+b63,loss of appetite when left alone,- 혼자 남겨졌을 때 식욕을 잃습니까?
+b64,urinates when left alone,- 혼자 남겨졌을 때 소변을 봅니까?
+b65,defecates when left alone,- 혼자 남겨졌을 때 대변을 봅니까?
+b66,hyperactivity restlessness,- 과도한 활동성이나 안절부절 못함을 보입니까?
+b67,playfulness puppyish behavior,- 장난스럽거나 '강아지 같은' 행동을 합니까?
+b68,active energetic behavior,- 활동적이고 에너지가 넘치는 행동을 합니까?
+b69,stares intently at nothing visible,- 눈에 보이지 않는 것에 집중해서 응시합니까?
+b70,snaps at invisible flies,- 보이지 않는 파리를 물려고 하거나 공격하려 합니까?
+b71,chases own tail or hind end,- 자신의 꼬리나 엉덩이를 쫓아다닙니까?
+b72,chases or follows shadows or light spots,- 그림자나 빛을 쫓거나 따라다닙니까?
+b73,barks persistently when alarmed or excited,- 경고하거나 흥분했을 때 계속 짖습니까?
+b74,licks himherself excessively,- 자신을 과도하게 핥습니까?
+b75,licks people or objects excessively,- 사람이나 물건을 과도하게 핥습니까?
+b76,displays other odd or repetitive behavior,- 다른 이상하거나 반복적인 행동을 보입니까?
+b77,plays when you invite,- 당신이 장난을 치려고 할 때 함께 놀아줍니까?
+b78,you play when the dog invites,- 개가 놀자고 할 때 당신은 함께 놀아줍니까?
+b79,you reward with play when the dog does something good,- 개가 뭔가 잘했을 때 놀이로 보상합니까?
+b80,you reward with treats when the dog does something good,- 개가 뭔가 잘했을 때 간식으로 보상합니까?
+b81,other dogs in the household,- 가정 내에 다른 개들이 있습니까? 있다면 몇 마리이며 어떤 품종입니까?
+b82,other animals in the household,- 가정 내에 개 이외의 다른 동물들이 있습니까? 있다면 어떤 동물입니까?
+b83,children in the household,- 가정 내에 아이들이 있습니까? 있다면 나이는 몇 살입니까?
+b84,has the dog been moved if yes how long ago,- 개가 이사한 적이 있습니까? 있다면 언제입니까?
+b85,has the dog been in a car accident if yes how long ago,- 개가 교통사고를 당한 적이 있습니까? 있다면 언제입니까?
+b86,has the dog been in a dogfight if yes how long ago,- 개가 개싸움에 휘말린 적이 있습니까? 있다면 언제입니까?
+b87,has the dog bitten anyone if yes how long ago,- 개가 사람을 문 적이 있습니까? 있다면 언제입니까?
+b88,have you been training the dog if yes what have you been training,- 개를 훈련시킨 적이 있습니까? 있다면 어떤 훈련을 했습니까?
+b89,has the dog shown any tendency to be afraid of shooting sounds if yes how,- 개가 총소리 같은 것에 두려움을 보인 적이 있습니까? 있다면 어떻게 반응했습니까?
+b90,which food has been given to the dog any supplements,- 개에게 어떤 음식을 줬습니까? 추가로 영양제를 줬습니까? 있다면 무엇입니까?
+b91,has the dog visited the veterinarian if yes why,- 개가 수의사를 방문한 적이 있습니까? 있다면 왜 방문했습니까?
+b92,urinates against objectsfurnishings in your home,- 집안의 물건이나 가구에 소변을 봅니까?
+b93,urinates when approached petted handled or picked up,- 다가가거나 만지거나 안아들 때 소변을 봅니까?
+b94,urinates when left alone at night or during the daytime,- 밤이나 낮에 혼자 남겨졌을 때 소변을 봅니까?
+b95,defecates when left alone at night or during the daytime,- 밤이나 낮에 혼자 남겨졌을 때 대변을 봅니까?
+b96,hyperactive restless has trouble settling down,- 과도한 활동성이나 안절부절 못함을 보입니까?
+b97,playful puppyish boisterous,- 장난스럽거나 '강아지 같은' 행동을 합니까?
+b98,active energetic always on the go,- 활동적이고 에너지가 넘치는 행동을 합니까?
+b99,stares intently at nothing visible,- 눈에 보이지 않는 것에 집중해서 응시합니까?
+b100,snaps at invisible flies,- 보이지 않는 파리를 물려고 하거나 공격하려 합니까?
+b101,chases own tailhind end,- 자신의 꼬리나 엉덩이를 쫓아다닙니까?
+b102,chasesfollows shadows light spots etc,- 그림자나 빛을 쫓거나 따라다닙니까?
+b103,barks persistently when alarmed or excited,- 경고하거나 흥분했을 때 계속짖습니까?
+b104,licks himherself excessively,- 자신을 과도하게 핥습니까?
+b105,licks people or objects excessively,- 사람이나 물건을 과도하게 핥습니까?
+b106,displays other odd or repetitive behavior,- 다른 이상하거나 반복적인 행동을 보입니까?
+b107,plays when you invite,- 당신이 장난을 치려고 할 때 함께 놀아줍니까?
+b108,you play when the dog invites,- 개가 놀자고 할 때 당신은 함께 놀아줍니까?
+b109,you reward with play when the dog does something good,- 개가 뭔가 잘했을 때 놀이로 보상합니까?
+b110,you reward with treats when the dog does something good,- 개가 뭔가 잘했을 때 간식으로 보상합니까?
+b111,are there other dogs in the household if yes how many and which breeds,- 가정 내에 다른 개들이 있습니까? 있다면 몇 마리이며 어떤 품종입니까?
+b112,are there other animals than dogs in the household if yes what animals,- 가정 내에 개 이외의 다른 동물들이 있습니까? 있다면 어떤 동물입니까?
+b113,are there any children in your household if yes how old,- 가정 내에 아이들이 있습니까? 있다면 나이는 몇 살입니까?
+b114,has the dog been moved if yes how long ago,- 개가 이사한 적이 있습니까? 있다면 언제입니까?
+b115,has the dog been in a car accident if yes how long ago,- 개가 교통사고를 당한 적이 있습니까? 있다면 언제입니까?
+b116,has the dog been in a dogfight if yes how long ago,- 개가 개싸움에 휘말린 적이 있습니까? 있다면 언제입니까?
+b117,has the dog bitten anyone if yes how long ago,- 개가 사람을 문 적이 있습니까? 있다면 언제입니까?
+b118,have you been training the dog if yes what have you been training,- 개를 훈련시킨 적이 있습니까? 있다면 어떤 훈련을 했습니까?
+b119,has the dog shown any tendency to be afraid of shooting sounds if yes how,- 개가 총소리 같은 것에 두려움을 보인 적이 있습니까? 있다면 어떻게 반응했습니까?
+b120,which food has been given to the dog any supplements if yes what,- 개에게 어떤 음식을 줬습니까? 추가로 영양제를 줬습니까? 있다면 무엇입니까?

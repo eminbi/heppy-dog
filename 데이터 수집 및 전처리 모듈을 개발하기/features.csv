@@ -1,0 +1,50 @@
+git clone https://github.com/사용자명/리포지토리명.git
+import cv2
+import numpy as np
+import csv
+
+def preprocess_frame(frame):
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    blur = cv2.GaussianBlur(gray, (5, 5), 0)
+    return blur
+
+def extract_features(frame):
+    # 평균과 표준편차를 특징으로 추출
+    mean = np.mean(frame)
+    std = np.std(frame)
+    return mean, std
+
+def save_features_to_csv(features, csv_filename='features.csv'):
+    with open(csv_filename, mode='a', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(features)
+
+def process_video_stream(video_path):
+    cap = cv2.VideoCapture(video_path)
+    
+    while cap.isOpened():
+        ret, frame = cap.read()
+        if not ret:
+            break
+
+        # 프레임 전처리
+        processed_frame = preprocess_frame(frame)
+        
+        # 특징 추출
+        mean, std = extract_features(processed_frame)
+        
+        # 특징을 CSV 파일에 저장
+        save_features_to_csv([mean, std])
+
+        # 화면에 프레임 출력
+        cv2.imshow('Processed Frame', processed_frame)
+
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+    
+    cap.release()
+    cv2.destroyAllWindows()
+
+# 비디오 파일 경로
+video_path = 'your_video.mp4'
+process_video_stream(video_path)

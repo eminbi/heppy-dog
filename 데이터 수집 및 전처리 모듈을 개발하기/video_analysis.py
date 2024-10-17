@@ -2,7 +2,7 @@ import cv2
 import os
 
 # 비디오 파일 경로 설정
-video_path = "H:/my_videos/video.mp4"  # 비디오 파일 경로를 정확하게 입력
+video_path = "H:/my_videos/video.mp4"  # 경로 수정: H:/my_videos/video.mp4
 
 # 경로가 정확한지 확인
 if not os.path.exists(video_path):

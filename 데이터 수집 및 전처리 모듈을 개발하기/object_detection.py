@@ -16,7 +16,7 @@ layer_names = net.getLayerNames()
 output_layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
 
 # 비디오 파일 경로 설정
-video_path = "H:/my_videos/영상/input_video.mp4.mp4"
+video_path = "H:/my_videos/영상/input_video.mp4"
 cap = cv2.VideoCapture(video_path)
 
 while True:

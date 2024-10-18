@@ -1,11 +1,3 @@
-{
-    "video_input_path": "input_videos/",
-    "output_features_path": "features/",
-    "model_save_path": "models/",
-    "db_path": "pet_behavior.db",
-    "video_format": "mp4",
-    "frame_rate": 30,
-    "image_resolution": [640, 480],
     "preprocessing": {
         "resize": true,
         "normalize": true,

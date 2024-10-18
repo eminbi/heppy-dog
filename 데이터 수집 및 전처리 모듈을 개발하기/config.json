@@ -13,7 +13,6 @@
     },
     "model": {
         "type": "CNN",
-@ -22,6 +25,28 @@
         "dropout_rate": 0.5,
         "learning_rate": 0.001,
         "batch_size": 32,

@@ -1,26 +1,37 @@
 HappyPet/
 │
 ├── config/
-│   └── config.json               # 환경 설정 파일 (예: 경로, 모델 설정 등)
+│   └── config.json                   # 환경 설정 파일
+│
 ├── data/
-│   ├── raw/                      # 원본 데이터 (비디오 파일 등)
-│   ├── processed/                # 전처리된 데이터 저장
-│   └── features/                 # 추출된 특징 저장
+│   ├── input_videos/                 # 비디오 입력 파일 경로
+│   ├── processed/                    # 전처리된 데이터 저장 경로
+│   └── features/                     # 특징 추출된 데이터 저장 경로
+│
 ├── models/
-│   └── trained_models/           # 학습된 머신러닝 모델 저장
-├── results/
-│   └── visualizations/           # 시각화된 분석 결과 저장
-│   └── predictions/              # 예측된 감정 및 성격 분석 결과 저장
-├── scripts/
-│   ├── data_preprocessing.py     # 데이터 전처리 스크립트
-│   ├── feature_extraction.py     # 특징 추출 스크립트
-│   ├── model_training.py         # 모델 학습 스크립트
-│   ├── object_detection.py       # 행동 인식을 위한 객체 탐지 스크립트
-│   ├── result_visualizer.py      # 결과 시각화 스크립트
-│   ├── save_features_to_db.py    # 추출된 특징을 데이터베이스에 저장하는 스크립트
-│   └── test.py                   # 유닛 테스트 및 기능 테스트를 위한 스크립트
+│   └── trained_models/               # 학습된 모델 저장 경로
+│
+├── src/
+│   ├── collectors/
+│   │   └── pet_data_collector.py     # 데이터 수집 모듈
+│   ├── analyzers/
+│   │   └── behavior_analyzer.py      # 행동 분석 모듈
+│   ├── predictors/
+│   │   └── personality_predictor.py  # 성격/감정 예측 모듈
+│   └── savers/
+│       └── data_saver.py             # 데이터 저장 모듈
+│
 ├── tests/
-│   └── unit_tests/               # 유닛 테스트 파일들
-├── environment.yml               # Conda 환경 설정 파일
-├── README.md                     # 프로젝트 설명 및 실행 방법 문서
-└── requirements.txt              # Python 패키지 의존성 목록
+│   └── test_behavior_analysis.py     # 테스트 파일들
+│
+├── ui/
+│   ├── video_equalizer_ui.py         # 비디오 이퀄라이저 UI
+│   ├── preferences_ui.py             # 환경 설정 UI
+│   └── main_window.py                # 메인 윈도우 UI
+│
+├── result_visualizer/
+│   └── result_visualizer.py          # 분석 결과 시각화 모듈
+│
+├── environment.yml                   # Conda 환경 설정 파일
+├── requirements.txt                  # pip 패키지 설정 파일
+└── README.md                         # 프로젝트 설명 파일

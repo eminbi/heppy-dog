@@ -1,0 +1,6 @@
+{
+    "video_input_path": "input_videos/",
+    "output_features_path": "features/",
+    "model_save_path": "models/",
+    "db_path": "pet_behavior.db"
+}

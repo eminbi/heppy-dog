@@ -1,3 +1,4 @@
+@ -1,20 +1,23 @@
 {
     "video_input_path": "input_videos/",
     "output_features_path": "features/",
@@ -21,7 +22,7 @@
     },
     "model": {
         "type": "CNN",
-        "layers": [64, 128, 256],
+@ -22,6 +25,28 @@
         "dropout_rate": 0.5,
         "learning_rate": 0.001,
         "batch_size": 32,

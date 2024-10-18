@@ -1,0 +1,16 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Deploy to App Store"
+  
+  lane :deploy do
+    match(type: "appstore")  # 인증서 및 프로비저닝 프로파일 관리
+    build_app(
+      scheme: "YourAppScheme",  # Xcode 스킴 지정
+      export_options: {  # 빌드 결과물의 출력 옵션 지정
+        output_name: "MyAppName.ipa"  # 생성될 파일명 지정
+      }
+    )
+    upload_to_app_store  # App Store로 빌드 업로드
+  end
+end

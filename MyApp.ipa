@@ -1,0 +1,7 @@
+build_app(
+  scheme: "YourAppScheme",
+  export_options: {
+    output_directory: "./output",
+    output_name: "MyApp.ipa"
+  }
+)

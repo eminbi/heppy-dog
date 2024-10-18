@@ -9,12 +9,15 @@
     "preprocessing": {
         "resize": true,
         "normalize": true,
-        "gray_scale": false
+        "gray_scale": false,
+        "denoise": true,
+        "rotation_correction": true
     },
     "feature_extraction": {
         "use_hog": true,
-        "use_cnn": false,
-        "use_optical_flow": true
+        "use_cnn": true,
+        "use_optical_flow": true,
+        "feature_storage_format": "json"
     },
     "model": {
         "type": "CNN",
@@ -22,6 +25,28 @@
         "dropout_rate": 0.5,
         "learning_rate": 0.001,
         "batch_size": 32,
-        "epochs": 20
+        "epochs": 20,
+        "regularization": "L2",
+        "optimizer": "adam"
+    },
+    "analysis_settings": {
+        "behavioral_strings_separator": "|",
+        "alert_on_missing_subject": true,
+        "track_cursor_above_event": true,
+        "enable_auto_save": true,
+        "auto_save_interval_minutes": 10,
+        "confirm_sound_on_action": false
+    },
+    "visualization": {
+        "enable_spectrogram": true,
+        "spectrogram_color_map": "viridis",
+        "plot_colors": ["red", "blue", "green", "yellow"],
+        "enable_real_time_visualization": true
+    },
+    "notifications": {
+        "check_for_updates": true,
+        "alert_if_no_subject_set": true,
+        "beep_every_seconds": 0,
+        "track_events_live": true
     }
 }

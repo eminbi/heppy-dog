@@ -3,9 +3,14 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.10
-  - pyqt=5.15
-  - opencv
-  - numpy
-  - pandas
-  - matplotlib
+  - python=3.10         # Python 버전
+  - pyqt=5.15           # PyQt 버전
+  - opencv              # OpenCV 라이브러리
+  - numpy               # NumPy 라이브러리
+  - pandas              # Pandas 라이브러리
+  - matplotlib          # Matplotlib 라이브러리
+  - scikit-learn        # 머신러닝 라이브러리 (필요 시 추가)
+  - joblib              # 모델 저장 및 로드에 필요한 라이브러리 (필요 시 추가)
+  - pip                 # pip을 통해 설치할 수 있도록 추가
+  - pip:
+    - PySide6           # PyQt 대신 PySide6을 사용하는 경우

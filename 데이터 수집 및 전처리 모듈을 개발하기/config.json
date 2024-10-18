@@ -2,5 +2,26 @@
     "video_input_path": "input_videos/",
     "output_features_path": "features/",
     "model_save_path": "models/",
-    "db_path": "pet_behavior.db"
+    "db_path": "pet_behavior.db",
+    "video_format": "mp4",
+    "frame_rate": 30,
+    "image_resolution": [640, 480],
+    "preprocessing": {
+        "resize": true,
+        "normalize": true,
+        "gray_scale": false
+    },
+    "feature_extraction": {
+        "use_hog": true,
+        "use_cnn": false,
+        "use_optical_flow": true
+    },
+    "model": {
+        "type": "CNN",
+        "layers": [64, 128, 256],
+        "dropout_rate": 0.5,
+        "learning_rate": 0.001,
+        "batch_size": 32,
+        "epochs": 20
+    }
 }

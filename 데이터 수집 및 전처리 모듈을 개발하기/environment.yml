@@ -1,0 +1,14 @@
+name: heppy-dog
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - opencv
+  - mediapipe
+  - numpy
+  - pandas
+  - matplotlib
+  - tensorflow
+  - scikit-learn
+  - pip

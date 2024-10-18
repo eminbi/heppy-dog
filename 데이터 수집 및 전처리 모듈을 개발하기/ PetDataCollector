@@ -1,0 +1,26 @@
+HappyPet/
+│
+├── config/
+│   └── config.json               # 환경 설정 파일 (예: 경로, 모델 설정 등)
+├── data/
+│   ├── raw/                      # 원본 데이터 (비디오 파일 등)
+│   ├── processed/                # 전처리된 데이터 저장
+│   └── features/                 # 추출된 특징 저장
+├── models/
+│   └── trained_models/           # 학습된 머신러닝 모델 저장
+├── results/
+│   └── visualizations/           # 시각화된 분석 결과 저장
+│   └── predictions/              # 예측된 감정 및 성격 분석 결과 저장
+├── scripts/
+│   ├── data_preprocessing.py     # 데이터 전처리 스크립트
+│   ├── feature_extraction.py     # 특징 추출 스크립트
+│   ├── model_training.py         # 모델 학습 스크립트
+│   ├── object_detection.py       # 행동 인식을 위한 객체 탐지 스크립트
+│   ├── result_visualizer.py      # 결과 시각화 스크립트
+│   ├── save_features_to_db.py    # 추출된 특징을 데이터베이스에 저장하는 스크립트
+│   └── test.py                   # 유닛 테스트 및 기능 테스트를 위한 스크립트
+├── tests/
+│   └── unit_tests/               # 유닛 테스트 파일들
+├── environment.yml               # Conda 환경 설정 파일
+├── README.md                     # 프로젝트 설명 및 실행 방법 문서
+└── requirements.txt              # Python 패키지 의존성 목록
